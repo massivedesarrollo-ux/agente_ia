@@ -208,7 +208,7 @@ def main():
         st.warning("No se pudo cargar el catálogo de Supabase.")
 
     with st.sidebar:
-        st.image("logo_massive.jpg", width=200)
+        st.image("Logo_massive.jpg", width=200)
         st.title("Massive v9.5")
         mode = st.radio("Sección:", ["Atención Cliente", "Admin Dashboard"])
         st.divider()
